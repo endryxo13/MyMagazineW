@@ -1,6 +1,5 @@
 package ua.lviv.lg.controller;
 
-
 import java.security.Principal;
 import java.util.List;
 
@@ -15,12 +14,10 @@ import ua.lviv.lg.DTO.TypeChildrensClothingDTO;
 import ua.lviv.lg.entity.ChildrensClothing;
 import ua.lviv.lg.entity.Custom;
 import ua.lviv.lg.service.ChildrensClothingService;
-
 @Controller
 public class ChildrensClothingController {
 @Autowired
 	private ChildrensClothingService childrensClothingService;
-
 @RequestMapping(value="/showAllChildrensClothing")
 public String findChildrensClothing(Model model){
 	List<TypeChildrensClothingDTO> allChildrensClothings=childrensClothingService.findAll();

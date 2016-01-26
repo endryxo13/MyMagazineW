@@ -1,7 +1,5 @@
 package ua.lviv.lg.entity;
-
 import java.util.List;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -31,7 +29,6 @@ private String email;
 private String password;
 @OneToMany(cascade={CascadeType.PERSIST,CascadeType.MERGE},fetch=FetchType.LAZY, mappedBy="buyer")
 private List<Custom> custom;
-
 public Buyer(){
 	}
 public Buyer(String firstName, String lastName, int telefonNumber, String city, String email,String password) {
@@ -46,43 +43,33 @@ public Buyer(String firstName, String lastName, int telefonNumber, String city, 
 public String getFirstName() {
 	return firstName;
 }
-
 public int getIdBuyer() {
 	return idBuyer;
 }
-
 public void setIdBuyer(int idBuyer) {
 	this.idBuyer = idBuyer;
 }
-
 public void setFirstName(String firstName) {
 	this.firstName = firstName;
 }
-
 public String getLastName() {
 	return lastName;
 }
-
 public void setLastName(String lastName) {
 	this.lastName = lastName;
 }
-
 public int getTelefonNumber() {
 	return telefonNumber;
 }
-
 public String getPassword() {
 	return password;
-
 }
 public void setTelefonNumber(int telefonNumber) {
 	this.telefonNumber = telefonNumber;
 }
-
 public List<Custom> getCustom() {
 	return custom;
 }
-
 public String getCity() {
 	return city;
 }
@@ -104,7 +91,6 @@ public String toString() {
 			+ telefonNumber + ", city=" + city + ", email=" + email + ", password=" + password + ", custom=" + custom
 			+ "]";
 }
-
 }
 
 

@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import ua.lviv.lg.dao.BuyerDao;
 import ua.lviv.lg.entity.Buyer;
 import ua.lviv.lg.service.BuyerService;
-
 @Service
 public class BuyerServiceImpl implements BuyerService {
 	@Autowired
@@ -27,8 +26,8 @@ public class BuyerServiceImpl implements BuyerService {
 	buyerDao.updateBuyer(new Buyer(firstName, lastName, Integer.parseInt(telefonNumber), city, email,encoder.encode(password)));
 					}
 @Transactional
-	public void deleteBuyer(String firstName, String lastName, String telefonNumber, String city, String email,String password){
-		buyerDao.deleteBuyer(new Buyer(firstName, lastName,  Integer.parseInt(telefonNumber), city, email,encoder.encode(password)));
+	public void deleteBuyer(int id){
+		buyerDao.deleteBuyer(buyerDao.findBuyerById(id));
 			}
 @Transactional
 	public List<Buyer> findAll(){

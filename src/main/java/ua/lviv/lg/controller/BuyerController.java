@@ -12,14 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import ua.lviv.lg.entity.Buyer;
 import ua.lviv.lg.service.BuyerService;
-
-
 @Controller
 public class BuyerController {
 	@Autowired
 	private BuyerService buyerService;
-	
-	@RequestMapping(value="/findAllBuyers")
+		@RequestMapping(value="/findAllBuyers")
 	public String findBuyers(Model model){
 		List<Buyer> allBuyer=buyerService.findAll();
 		model.addAttribute("buyers", allBuyer);
@@ -37,9 +34,6 @@ public String  registrBuyer(@RequestParam(value = "firstName") String firstName,
 		@RequestParam(value = "email") String email,
         @RequestParam(value = "password") String password){
 		buyerService.insertBuyer(firstName, lastName, telefonNumber, city, email,password);
-
 		return "redirect:/findAllBuyers";
-		
-	}
-
+			}
 }

@@ -2,7 +2,6 @@ package ua.lviv.lg.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 @Controller
 public class HomeController {
 	@RequestMapping(value = "/")
@@ -13,8 +12,7 @@ public class HomeController {
 	public String loginPage(){
 		return "loginpage";
 	}
-	
-	@RequestMapping(value = "/contact")
+		@RequestMapping(value = "/contact")
 	public String Contact(){
 		return "Contact";
 	}

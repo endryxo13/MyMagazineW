@@ -14,7 +14,6 @@ import ua.lviv.lg.dao.CustomDao;
 import ua.lviv.lg.entity.Buyer;
 import ua.lviv.lg.entity.Custom;
 import ua.lviv.lg.service.CustomService;
-
 @Service
 public class CustomServiceImpl implements CustomService{
 	@Autowired
@@ -22,7 +21,6 @@ private CustomDao customDao;
 @Transactional
 	public void saveCustom(String date,String quantity){
 	DateFormat df = new SimpleDateFormat("yy-mm-dd");
-
 	try {
 		customDao.saveCustom(new Custom(df.parse(date),Integer.parseInt( quantity)));
 	} catch (NumberFormatException e) {
@@ -45,8 +43,7 @@ private CustomDao customDao;
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-		
-	}
+			}
 @Transactional
 	public void deleteCustom(String date,String quantity){
 	DateFormat df = new SimpleDateFormat("yy-mm-dd");
@@ -76,5 +73,4 @@ private CustomDao customDao;
 	public List<Custom> findCustomByQuantity(int quantity){
 		return customDao.findCustomByQuantity(quantity);
 	}
-	
-}
+	}

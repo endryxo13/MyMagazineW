@@ -13,13 +13,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import ua.lviv.lg.entity.Custom;
 import ua.lviv.lg.service.CustomService;
-
 @Controller
 public class CustomController {
 @Autowired
 	private CustomService customService;
-	
-@RequestMapping(value="/showAllCustom")
+	@RequestMapping(value="/showAllCustom")
 public String findCustom(Model model){
 	List<Custom> allCustoms=customService.findAll();
 	model.addAttribute("customs", allCustoms);
