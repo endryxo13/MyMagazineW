@@ -11,5 +11,4 @@ public interface ProductTypeService {
 	void deleteProductType(String productType);
 	List<ProductType> findAll();
 	void findById(int id);
-
 }
