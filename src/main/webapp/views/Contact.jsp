@@ -10,18 +10,29 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Контакти</h2>
-	<div class="about">
-		<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
-		<p>
-			<i>Привіт!!)) Наш магазин створений для люблячих матусь, <br> які
-				дбають про стиль і красу своїх діточок. <br> Кожна з наших
-				речей підібрана кваліфікованими спеціалістами <br> для Вашої
-				зручності та дитячого комфорту))
-			</i>
-		</p>
-	</div>
 
+<div class="header">
+<h1>Інтернет-магазин
+ <br>одягу для немовлят
+ <br> "Дмитрик"
+</h1>
+<ul class="social">
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/Youtube.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/twitter.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/facebook.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/vk3 (1).png"></c:url>' /></a>
+</li>
+</ul>
+</div>
+	<h2>Контакти</h2>
+	
 	<h2>
 		<i>Ми завжди раді вам допомогти.</i>
 	</h2>
@@ -47,6 +58,16 @@
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.6024888720176!2d24.03101831570898!3d49.83113597939465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add67a0879827%3A0xa20606379b7c5fe0!2z0LLRg9C7LiDQhtCy0LDQvdCwINCk0YDQsNC90LrQsCwgNjEsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1453672053609"
 			width="600" height="450" frameborder="0"
 			style="border: 0; margin-top: 30px; float: right; margin-right: 70px;" allowfullscreen></iframe>
+	</div>
+<div class="about">
+		<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
+		<p>
+			<i>Привіт!!)) Наш магазин створений для люблячих матусь, <br> які
+				дбають про стиль і красу своїх діточок. <br> Кожна з наших
+				речей підібрана кваліфікованими спеціалістами <br> для Вашої
+				зручності та дитячого комфорту))
+			</i>
+		</p>
 	</div>
 
 
