@@ -13,7 +13,7 @@
       <tr>
        <th colspan="2">Реєстраційна форма</th>
      </tr>
-        <form class="form-horizontal" method="post">
+        <form class="form-horizontal" action="registrBuyer"  method="post">
           <div class="form-group">
       <label for="firstName" class="col-sm-2 control-label">FirstName</label>
     <div class="col-sm-10">
@@ -48,7 +48,7 @@
     <div class="form-group">
       <label for="password" class="col-sm-2 control-label">password</label>
     <div class="col-sm-10">
-    <input	type="text" class="form-control" name="email">
+    <input	type="text" class="form-control" name="password">
     </div>
   </div>
   	<c:forEach var="buyer" items="${buyers}">

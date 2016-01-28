@@ -44,7 +44,7 @@
 	 
    <h3 class="reg">Ще не зареєстровані??!!</h3>
   
-  <a href="registr" class="button">Реєстрація тут!!!</a>
+  <a href="buyer-new" class="button">Реєстрація тут!!!</a>
                    
                     </div>
      <div class="menu">
