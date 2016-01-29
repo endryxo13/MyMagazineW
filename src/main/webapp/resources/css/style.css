@@ -231,3 +231,21 @@ div.contacts{
     font-family: book old style;
 	font-size: 18px;
 	}
+	
+	
+	div.chilclo{
+	width: 600px;
+	height: 600px;
+	display: inline;
+	margin-left: 300px;
+	}
+	
+	div.chilclo img{
+	width: 200px;
+	height: 200px;
+	 display: inline-block; // (1)
+    vertical-align: top; // (1)
+    position: relative; // (2)
+	
+	}
+
