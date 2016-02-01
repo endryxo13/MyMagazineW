@@ -25,11 +25,9 @@
 <div class="newcc">
 	<form action="createChildrensClothing" method="post">
 		Ціна <input type="text" name="price">
-				 Наявність <select
+				 Наявність <input
 			type="text" class="btn btn-default dropdown-toggle" name="availability">
-			<option value="nemae"> Nemae</option>
-    <option value="Sklad"> Na skladi</option>
-    </select>
+			
 			<br>
 			<br>
 		
