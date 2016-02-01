@@ -20,4 +20,8 @@ public class HomeController {
 	public String aboutUs(){
 		return "aboutUs";
 	}
+	@RequestMapping(value = "/payment")
+	public String payment(){
+		return "payment";
+	}
 }

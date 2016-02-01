@@ -31,7 +31,7 @@ ul.menu {
 	width: 850px;
 	margin: auto;
 	padding: 0px;
-	margin-left: 200px;
+	margin-left: 330px;
 }
 
 ul.menu>li {
@@ -50,7 +50,7 @@ ul.menu>li>a {
 	width: 70px;
 	color: white;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 23px;
 }
 
 div.header li, form.form-inline li {
@@ -246,6 +246,34 @@ div.contacts{
 	 display: inline-block; // (1)
     vertical-align: top; // (1)
     position: relative; // (2)
-	
-	}
+		}
 
+div.pay{
+		width: 1300px;
+	height: auto;
+	margin-left: 200px;
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+ul.card>li {
+	display: inline-block;
+	text-align: center;
+	height: 100px;
+	width: 150px;
+	list-style-type: none;
+	}
+	ul.card {
+	width: 850px;
+	height:140px;
+	margin: auto;
+	padding: 0px;
+	margin-left: 200px;
+}
+button.large{
+	width: 100px;
+	height:35px;
+	margin: auto;
+	font-size: 18px;
+	background-color: lightBlue;
+}

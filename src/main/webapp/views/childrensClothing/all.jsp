@@ -12,7 +12,7 @@
 <c:forEach var="childrensClothing" items="${childrensClothings}">
 <div class="chilclo">
 <img src='<c:url value="/resources/Image/${childrensClothing.productType}.jpg"></c:url>' />
-<a href="#" >Buy </a>
+<a href="payment" class="bout" >Buy </a>
 
 ${childrensClothing.productType}
 ${childrensClothing.price}

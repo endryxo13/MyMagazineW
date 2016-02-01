@@ -45,4 +45,8 @@
 		<put-attribute name="body" value="/views/aboutUs.jsp"></put-attribute>
 		<put-attribute name="title" value="aboutUs"></put-attribute>
 	</definition>
+		<definition name="payment" extends="base.definition">
+		<put-attribute name="body" value="/views/payment.jsp"></put-attribute>
+		<put-attribute name="title" value="payment"></put-attribute>
+	</definition>
 </tiles-definitions>

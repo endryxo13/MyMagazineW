@@ -53,7 +53,6 @@
 		<li><a href="showAllProductType">Асортимент</a></li>
 	<li><a href="showAllChildrensClothing">Дитячий одяг</a></li>
 		<li><a href="contact">Контакти</a></li>
-	<li><a href="showAllCustom">Корзина</a></li>
 	
 	</ul> 
 	</div>
