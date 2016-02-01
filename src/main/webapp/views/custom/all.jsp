@@ -20,3 +20,9 @@
 		</tbody>
 	</table>
 	<div class="a"><a href="createNewCustom" >Create Custom</a></div>
+	<div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>

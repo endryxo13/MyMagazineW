@@ -6,7 +6,26 @@
 
 
 </head>
-
+<div class="header">
+<h1>Інтернет-магазин
+ <br>одягу для немовлят
+ <br> "Дмитрик"
+</h1>
+<ul class="social">
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/Youtube.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/twitter.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/facebook.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/vk3 (1).png"></c:url>' /></a>
+</li>
+</ul>
+</div>
 <h2>ChildrensClothings:</h2>
 
 <c:forEach var="childrensClothing" items="${childrensClothings}">
@@ -40,6 +59,11 @@ ${childrensClothing.price}
 <div class="a" style="margin-top: 800px;">
 	<a href="createNewChildrensClothing">Create ChildrensClothing</a>
 </div>
-
+<div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>
 </html>
 

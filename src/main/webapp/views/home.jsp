@@ -44,7 +44,7 @@
 	 
    <h3 class="reg">Ще не зареєстровані??!!</h3>
   
-  <a href="buyer-new" class="button">Реєстрація тут!!!</a>
+  <a href="registr" class="button">Реєстрація тут!!!</a>
                    
                     </div>
      <div class="menu">
@@ -67,6 +67,11 @@
 	 </i>
 	</p>
 	</div>
-
+<div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>
 </body>
 </html>

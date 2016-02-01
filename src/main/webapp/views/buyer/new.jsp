@@ -10,63 +10,89 @@
         <title>Registration</title>
     </head>
     <body>
-      <tr>
-       <th colspan="2">Реєстраційна форма</th>
-     </tr>
+    <div class="header">
+<h1>Інтернет-магазин
+ <br>одягу для немовлят
+ <br> "Дмитрик"
+</h1>
+<ul class="social">
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/Youtube.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/twitter.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/facebook.png"></c:url>' /></a>
+</li>
+<li>
+<a href ="#"><img src='<c:url value="/resources/Image/vk3 (1).png"></c:url>' /></a>
+</li>
+</ul>
+</div>
+<div class="register">
         <form class="form-horizontal" action="registrBuyer"  method="post">
-          <div class="form-group">
-      <label for="firstName" class="col-sm-2 control-label">FirstName</label>
+              <tr>
+       <th colspan="2"><h2>Реєстраційна форма</h2></th>
+     </tr>
+          <br>
+       <br>
+          <div class="form-group1">
+      <label for="firstName" class="col-sm-2 control-label">Ім'я</label>
     <div class="col-sm-10">
      <input type="text" class="form-control" name="firstName">
     </div>
   </div>
-  <div class="form-group">
-      <label for="lastName" class="col-sm-2 control-label">LastName</label>
+  <div class="form-group1">
+      <label for="lastName" class="col-sm-2 control-label">Прізвище</label>
     <div class="col-sm-10">
 <input type="text" class="form-control" name="lastName">
     </div>
   </div>
-   <div class="form-group">
-      <label for="telefonNumber" class="col-sm-2 control-label">telefonNumber</label>
+   <div class="form-group1">
+      <label for="telefonNumber" class="col-sm-2 control-label">Номер телефону</label>
     <div class="col-sm-10">
     <input type="text" class="form-control" name="telefonNumber">
     </div>
   </div>
-   <div class="form-group">
-      <label for="city" class="col-sm-2 control-label">city</label>
+   <div class="form-group1">
+      <label for="city" class="col-sm-2 control-label">Місто</label>
     <div class="col-sm-10">
     <input type="text" class="form-control" name="city">
     </div>
   </div>
-   <div class="form-group">
-      <label for="email" class="col-sm-2 control-label">email</label>
+   <div class="form-group1">
+      <label for="email" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
 <input	type="text" class="form-control" name="email">
     </div>
   </div>
   
-    <div class="form-group">
-      <label for="password" class="col-sm-2 control-label">password</label>
+    <div class="form-group1">
+          <label for="password" class="col-sm-2 control-label">Пароль</label>
     <div class="col-sm-10">
     <input	type="text" class="form-control" name="password">
-    </div>
+       </div>
+   
   </div>
   	<c:forEach var="buyer" items="${buyers}">
 			<input type="radio" name="buyer" value="${buyer.id}">
 		</c:forEach>
-   <div class="form-group">
+   <div class="form-group1">
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
         <label>
-          <input type="checkbox"> Remember me
+          <input type="checkbox"> Запам'ятайти мене
         </label>
       </div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group1">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
+      <button type="submit" class="large">Зареєструватись</button>
     </div>
+    </div>
+     </div>
     <div class="about">
 	<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
 	<p>
@@ -77,8 +103,13 @@
 	 </i>
 	</p>
 	</div>
-  </div>
+ 
 </form>
-        
+      <div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>  
     </body>
 </html>

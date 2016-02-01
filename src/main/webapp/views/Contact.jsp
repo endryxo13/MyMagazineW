@@ -69,7 +69,12 @@
 			</i>
 		</p>
 	</div>
-
+<div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>
 
 </body>
 </html>

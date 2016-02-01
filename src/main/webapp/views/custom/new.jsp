@@ -24,5 +24,11 @@
 		</c:forEach>
 		<button type="submit">Create Custom</button>
 	</form>
+	<div class="footer">
+<br>
+<br>
+<h4>Copyright internet-magazine"Dmytryk" 2016.
+</h4>
+</div>
 </body>
 </html>

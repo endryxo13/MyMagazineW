@@ -127,9 +127,10 @@ form.form-inline {
 	margin-left: 200px;
 }
 
-div.form-group {
+div.form-group{
 	height: 50px;
-	width: 1300px;
+	width: 500px;
+	padding-left: 400px;
 }
 
 h2 {
@@ -170,7 +171,10 @@ table.table-productType {
 	padding: 10px;
 	cellspacing: 5px;
 	margin: auto;
+	margin-left:750px;
 	text-align: center;
+
+	
 }
 
 table.table-childrensClothing {
@@ -271,9 +275,58 @@ ul.card>li {
 	margin-left: 200px;
 }
 button.large{
-	width: 100px;
+	width: 200px;
 	height:35px;
 	margin: auto;
 	font-size: 18px;
 	background-color: lightBlue;
+}
+div.register{
+	height: auto;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 700px;
+	font-size: 18px;
+
+}
+div.form-group1 {
+	height: 50px;
+	width: 500px;
+	padding-left: 80px;
+}
+div.footer{
+	height: 40px;
+	width: 600px;
+	display: block;
+	margin-left: 700px;
+}
+div.a1 {
+	background: #b5bdc8;
+	background: linear-gradient(to top, #b5bdc8 0%, #B5B5B5 100%);
+	color: #fff;
+	border: 1px solid #333;
+	border-radius: 20px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 5px;
+	padding: 5px;
+	margin-left: 750px;
+}
+div.ass{
+	margin-left: 200px;
+}
+div.creatept{
+	height: 50px;
+	width: 500px;
+	padding-left: 650px;
+	font-size: 20px;
+}
+div.newcc{
+		height: 130px;
+	width: 500px;
+	padding-left: 580px;
+	font-size: 20px;
+	margin-left: 50px;
 }
