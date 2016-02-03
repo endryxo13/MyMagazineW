@@ -26,19 +26,21 @@
 </li>
 </ul>
 </div>
-<h2>ChildrensClothings:</h2>
+<h2 style="text-align: center;">Дитячий одяг</h2>
 
 <c:forEach var="childrensClothing" items="${childrensClothings}">
+
 <div class="chilclo">
+<figure>
 <img src='<c:url value="/resources/Image/${childrensClothing.productType}.jpg"></c:url>' />
-<a href="payment" class="bout" >Buy </a>
+<figcaption>
+<a href="payment" class="bout" ><button class="buy">Buy </button></a>
 
 ${childrensClothing.productType}
 ${childrensClothing.price}
+</figcaption>
+</figure>
 </div>
-
-
-
 
 </c:forEach>
 

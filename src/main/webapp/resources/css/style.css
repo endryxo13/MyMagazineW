@@ -115,7 +115,6 @@ div.about p {
 	font-size: 18px;
 }
 
-
 form.form-inline {
 	color: blue;
 	height: 200px;
@@ -127,7 +126,7 @@ form.form-inline {
 	margin-left: 200px;
 }
 
-div.form-group{
+div.form-group {
 	height: 50px;
 	width: 500px;
 	padding-left: 400px;
@@ -150,6 +149,7 @@ table.table-custom {
 	text-align: center;
 	border-collapse: separate;
 }
+
 td, th {
 	padding: 3px;
 	border: 1px solid black;
@@ -171,10 +171,8 @@ table.table-productType {
 	padding: 10px;
 	cellspacing: 5px;
 	margin: auto;
-	margin-left:750px;
+	margin-left: 750px;
 	text-align: center;
-
-	
 }
 
 table.table-childrensClothing {
@@ -204,102 +202,113 @@ div.a a {
 	text-decoration: none;
 	color: white;
 }
-div.contacts{
+
+div.contacts {
 	float: left;
 	margin-top: 30px;
 	text-align: center;
 	width: 400px;
 	margin-left: 220px;
 	font-size: 18px;
-	}
-	div.we{
+}
+
+div.we {
 	height: 500px;
 	width: 700px;
 	margin-left: 480px;
-	 
-	}
-	p.ol{
+}
+
+p.ol {
 	height: 200px;
 	width: 700px;
-    margin-left:20px;
-    margin-top:20px;
-    font-family: book old style;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: book old style;
 	font-size: 18px;
-	
-	}	
-	p.so{
+}
+
+p.so {
 	height: 200px;
 	width: 700px;
-    margin-left:20px;
-    margin-top:20px;
-    font-family: book old style;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: book old style;
 	font-size: 18px;
-	}
-	
-	
-	div.chilclo{
+}
+
+div.chilclo {
 	width: 600px;
 	height: 600px;
 	display: inline;
 	margin-left: 300px;
-	}
-	
-	div.chilclo img{
+	text-align: center;
+	padding: 5px;
+}
+
+div.chilclo img {
 	width: 200px;
 	height: 200px;
-	 display: inline-block; // (1)
-    vertical-align: top; // (1)
-    position: relative; // (2)
-		}
+	display: inline-block; // (1)
+	vertical-align: top; // (1)
+	position: relative;
+	//
+	(2)
+}
 
-div.pay{
-		width: 1300px;
+div.pay {
+	width: 1300px;
 	height: auto;
 	margin-left: 200px;
 	margin-top: 10px;
 	font-size: 18px;
 	text-align: center;
 }
+
 ul.card>li {
 	display: inline-block;
 	text-align: center;
 	height: 100px;
 	width: 150px;
 	list-style-type: none;
-	}
-	ul.card {
+}
+
+ul.card {
 	width: 850px;
-	height:140px;
+	height: 140px;
 	margin: auto;
 	padding: 0px;
 	margin-left: 200px;
 }
-button.large{
+
+button.large {
 	width: 200px;
-	height:35px;
+	height: 35px;
 	margin: auto;
 	font-size: 18px;
 	background-color: lightBlue;
 }
-div.register{
+
+div.register {
 	height: auto;
 	width: 300px;
 	margin-top: 10px;
 	margin-left: 700px;
 	font-size: 18px;
-
 }
+
 div.form-group1 {
 	height: 50px;
 	width: 500px;
 	padding-left: 80px;
 }
-div.footer{
+
+div.footer {
 	height: 40px;
 	width: 600px;
 	display: block;
 	margin-left: 700px;
 }
+
 div.a1 {
 	background: #b5bdc8;
 	background: linear-gradient(to top, #b5bdc8 0%, #B5B5B5 100%);
@@ -314,19 +323,71 @@ div.a1 {
 	padding: 5px;
 	margin-left: 750px;
 }
-div.ass{
+
+div.ass {
 	margin-left: 200px;
 }
-div.creatept{
+
+div.creatept {
 	height: 50px;
 	width: 500px;
 	padding-left: 650px;
 	font-size: 20px;
 }
-div.newcc{
-		height: 130px;
+
+div.newcc {
+	height: 130px;
 	width: 500px;
 	padding-left: 580px;
 	font-size: 20px;
 	margin-left: 50px;
+}
+
+button.buy {
+	width: 50px;
+	height: 30px;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-color: #c2e254 #9bb838 #9bb838 #c2e254;
+	border-style: solid;
+	border-width: 1px;
+	background: #c2e254;
+	cursor: pointer;
+}
+
+button.buy:hover {
+	border-color: #FFCC66 #FFFF99 #FFFF99 #FFCC66;
+	border-style: solid;
+	border-width: 1px;
+	background: #FFFF99;
+}
+
+button.buy:focus {
+	background: #ddd;
+	border-color: #ddd #333 #333 #ddd;
+	border-style: solid;
+	border-width: 1px;
+}
+
+button.buy:active {
+	background: #ff0000;
+	border-color: #ddd #333 #333 #ddd;
+	border-style: solid;
+	border-width: 1px;
+}
+
+figcaption {
+	max-width: 100%;
+	padding: 0 1%;
+	font: italic 90% Georgia, serif;
+}
+
+figure {
+	display: inline-block;
+	padding: 50px;
+}
+
+div#search-bar {
+	text-align: center;
+	margin-top: 10px;
 }
