@@ -60,7 +60,11 @@ ${childrensClothing.price}
 
 <div class="a" style="margin-top: 800px;">
 	<a href="createNewChildrensClothing">Create ChildrensClothing</a>
-</div>
+	</div>
+<div class="atHome">
+<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
+	<a href="home" >Повернутись на головну сторінку</a>
+	</div>
 <div class="footer">
 <br>
 <br>

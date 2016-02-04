@@ -29,6 +29,10 @@
 	</table>
 	<br>
 	<div class="a1"><a href="createNewProductType">createNewProductType</a></div>
+	   <div class="atHome">
+	<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
+	<a href="home" >Повернутись на головну сторінку</a>
+	</div>
 <div class="about">
 	<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
 	<p>

@@ -82,7 +82,7 @@
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
         <label>
-          <input type="checkbox"> Запам'ятайти мене
+          <input type="checkbox"> Запам'ятати мене
         </label>
       </div>
     </div>
@@ -93,6 +93,10 @@
     </div>
     </div>
      </div>
+     <div class="atHome">
+	<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
+	<a href="home" >Повернутись на головну сторінку</a>
+	</div>
     <div class="about">
 	<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
 	<p>

@@ -59,7 +59,15 @@
 			width="600" height="450" frameborder="0"
 			style="border: 0; margin-top: 30px; float: right; margin-right: 70px;" allowfullscreen></iframe>
 	</div>
-<div class="about">
+	<br>
+		<br>
+	<div class="atHome">
+	<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
+	<a href="home" >Повернутись на головну сторінку</a>
+	</div>
+		<br>	
+		<br>
+		<div class="about">
 		<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
 		<p>
 			<i>Привіт!!)) Наш магазин створений для люблячих матусь, <br> які

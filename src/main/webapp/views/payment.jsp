@@ -77,8 +77,8 @@
 </button>
 <br>
 <br>
-
 <a href="showAllChildrensClothing" >Повернутись до покупок</a>
+
 </div>
 <div class="about">
 		<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>

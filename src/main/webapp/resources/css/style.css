@@ -391,3 +391,10 @@ div#search-bar {
 	text-align: center;
 	margin-top: 10px;
 }
+div.atHome{
+	width: 600px;
+	height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+}
