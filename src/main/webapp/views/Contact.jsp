@@ -61,10 +61,7 @@
 	</div>
 	<br>
 		<br>
-	<div class="atHome">
-	<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
-	<a href="home" >Повернутись на головну сторінку</a>
-	</div>
+
 		<br>	
 		<br>
 		<div class="about">

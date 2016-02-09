@@ -42,10 +42,7 @@
 На фото, Софія - креативний дизайнер та ідейний наставник.
 Спеціаліст в своїй галузі, перспективний майбутній програміст.
 </div>
-<div class="atHome">
-<img src='<c:url value="/resources/Image/nazad.jpg"></c:url>' /></a>
-	<a href="home" >Повернутись на головну сторінку</a>
-	</div>
+
 <div class="about">
 	<img src='<c:url value="/resources/Image/child.jpg"></c:url>' /></a>
 	<p>
